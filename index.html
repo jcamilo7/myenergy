@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <picture>
+            <img src="./img/logo.svg" alt="">
+        </picture>
+        <picture>
+            <img src="./img/menu.svg" alt="">
+        </picture>
+    </header>
+    <main class="main">
+        <section class="main-section-info">
+            <picture class="main-section-info-picture">
+                <img src="./img/person.svg" alt="">
+            </picture>
+            <section class="main-section-info-datos">
+                <span>Energia generada:</span>
+                <span>3 kWh</span>
+                <span>Tú consumo:</span>
+                <span>2.5 kWh</span>
+                <span>Valor a pagar:</span>
+                <span>$ 2.000</span>
+            </section>
+        </section>
+        <section class="main-section-historico">
+            <canvas id="grafica"></canvas>
+            <script src="./script.js"></script>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Contactanos: 301000000</p>
+        <p>Copyring</p>
+        <p>Acerca de nosotros</p>
+    </footer>
+</body>
+</html>
